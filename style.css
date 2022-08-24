@@ -15,12 +15,17 @@
 
 body {
     background-color: var(--main-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* flex-direction: column; */
 }
 
 .card {
     width: 350px;
-    margin: auto;
-    margin-top: 12vh;
+    /* margin: auto; */
+    /* margin-top: 12vh; */
     background-color: var(--card-bg);
     border-radius: 16px;
     padding: 24px;
